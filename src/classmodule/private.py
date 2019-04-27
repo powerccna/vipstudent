@@ -4,12 +4,12 @@
 
 class Person:
 
-    def __init__(self, name, sex, province,weather):
+    def __init__(self, name, sex, province,weight):
         print("Init the class")
         self.__name = name
         self.sex =  sex
         self.__province = province
-        self._weather = weather
+        self._weight = weight
 
     def get_name(self):
         return self.__name
@@ -25,11 +25,8 @@ class Person:
 
 
 if __name__=="__main__":
-    pp=Person("zhangsan","Male","Jiangsu","Warm")
-    print (pp.sex)
-    #print(pp.__province)
-    print (pp._weather)
-    #print pp.__name
-    print (pp.get_name())
+    pp=Person("zhangsan","Male","Jiangsu","80")
+    print(pp._weight)
+    print(pp.get_name())
+    pp.__name
 
-    #print pp._Person__name

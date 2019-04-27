@@ -29,7 +29,16 @@ class Person:
 
 
 if __name__=="__main__":
+    pp= Person("huahua", "Female", "Shanghai")
+    #print(pp.get_name())
+    #print(pp.set_new_province("广东"))
+    #print(Person.set_new_name('toni'))
+    print(pp.get_sex)
+    print(pp.get_name())
 
+
+
+'''
     print(Person.set_new_name("hanmeimei"))
     print (Person.get_name())
     print(Person.set_new_province("Jiangsu"))
@@ -40,3 +49,4 @@ if __name__=="__main__":
 
     print(sg.set_new_name("Fangcheng"))
     print(sg.set_new_province("Zhejiang"))
+'''

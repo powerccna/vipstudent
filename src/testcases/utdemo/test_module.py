@@ -32,7 +32,7 @@ class simple_test2(unittest.TestCase):
 
     def test_2nd(self):
         print('simple_test2_2' + str(foo))
-        self.assertNotEqual(1.1,1.0)
+        self.assertEqual(foo.pop(), 6)
 
 def tearDownModule():
     print("end method")

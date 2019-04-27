@@ -7,7 +7,7 @@ import unittest
 class simple_test(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        print("init class\n")
+        print("init \n")
         simple_test.foo = list(range(10))
         print(str(simple_test.foo))
 

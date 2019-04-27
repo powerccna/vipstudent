@@ -2,10 +2,11 @@
 # encoding: utf-8
 #author: Jim Yin
 
-import htmltestrunner
+from testcases.utdemo import htmltestrunner
 import unittest
-from ut import example_1
-from ut import  example_class
+from testcases.utdemo import example_1
+from testcases.utdemo import example_class
+
 report_title = '执行报告'
 desc = '测试用例执行报告'
 report_file = 'ExampleReport.html'
