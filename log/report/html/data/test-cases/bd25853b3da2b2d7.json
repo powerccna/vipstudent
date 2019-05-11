@@ -1,0 +1,207 @@
+{
+  "uid" : "bd25853b3da2b2d7",
+  "name" : "test_2474609",
+  "fullName" : "alluredemo.login.test_login.TestLogin#test_2474609",
+  "historyId" : "3782c2f5edc59164ef9b4faed02f44ac",
+  "time" : {
+    "start" : 1557165743315,
+    "stop" : 1557165752030,
+    "duration" : 8715
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1557165743314,
+      "stop" : 1557165743314,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1557165743314,
+      "stop" : 1557165743314,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1557165743315,
+      "stop" : 1557165743315,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1557165743314,
+      "stop" : 1557165743314,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "通过电话密码的方式登录雪球",
+      "time" : {
+        "start" : 1557165743315,
+        "stop" : 1557165746318,
+        "duration" : 3003
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "点击用户icon，以便检查登录是否成功",
+      "time" : {
+        "start" : 1557165746318,
+        "stop" : 1557165748321,
+        "duration" : 2003
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查登录是否成功",
+      "time" : {
+        "start" : 1557165748322,
+        "stop" : 1557165752030,
+        "duration" : 3708
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7b8e0f01a9895ea4",
+        "name" : "dff25cf6-436b-4ad3-b9da-fb37b5fd131d-attachment.png",
+        "source" : "7b8e0f01a9895ea4.png",
+        "type" : "image/png",
+        "size" : 576170
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "b5aba11d561ed4bf",
+      "name" : "log",
+      "source" : "b5aba11d561ed4bf.txt",
+      "type" : "text/plain",
+      "size" : 708
+    }, {
+      "uid" : "d376cef6b5cdd363",
+      "name" : "stdout",
+      "source" : "d376cef6b5cdd363.txt",
+      "type" : "text/plain",
+      "size" : 9
+    }, {
+      "uid" : "c493237166f1691c",
+      "name" : "stderr",
+      "source" : "c493237166f1691c.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "测试失败的登录场景"
+  }, {
+    "name" : "feature",
+    "value" : "测试登录功能"
+  }, {
+    "name" : "parentSuite",
+    "value" : "alluredemo.login"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "yinjiwandeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "83353-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "alluredemo.login.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "http://www.testlink.com/id=2474609",
+    "url" : "http://www.testlink.com/id=2474609",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bd25853b3da2b2d7.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,29 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "alluredemo.login",
+    "children" : [ {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "TestLogin",
+        "children" : [ {
+          "name" : "test_2474609",
+          "uid" : "bd25853b3da2b2d7",
+          "parentUid" : "83d1c77bb5a4a3884813de97ed7b9fcb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1557165743315,
+            "stop" : 1557165752030,
+            "duration" : 8715
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "83d1c77bb5a4a3884813de97ed7b9fcb"
+      } ],
+      "uid" : "efd3d2284616ae3de0d4a58f5cd39951"
+    } ],
+    "uid" : "4fb5dc9367c2bd8b3845cf7d665b0179"
+  } ]
+}

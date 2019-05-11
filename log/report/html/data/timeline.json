@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "yinjiwandeMacBook-Pro.local",
+    "children" : [ {
+      "name" : "83353-MainThread",
+      "children" : [ {
+        "name" : "test_2474609",
+        "uid" : "bd25853b3da2b2d7",
+        "parentUid" : "310e1042dfa5f6ac97871d3a58b79957",
+        "status" : "passed",
+        "time" : {
+          "start" : 1557165743315,
+          "stop" : 1557165752030,
+          "duration" : 8715
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "310e1042dfa5f6ac97871d3a58b79957"
+    } ],
+    "uid" : "f13af987f3891817452782bf1789599f"
+  } ]
+}

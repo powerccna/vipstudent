@@ -1,0 +1,25 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "测试登录功能",
+    "children" : [ {
+      "name" : "测试失败的登录场景",
+      "children" : [ {
+        "name" : "test_2474609",
+        "uid" : "bd25853b3da2b2d7",
+        "parentUid" : "2e4e160a3a1538700f183caa02df9628",
+        "status" : "passed",
+        "time" : {
+          "start" : 1557165743315,
+          "stop" : 1557165752030,
+          "duration" : 8715
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2e4e160a3a1538700f183caa02df9628"
+    } ],
+    "uid" : "97accae9c8d68ec7411b2641d079d537"
+  } ]
+}

@@ -1,0 +1,21 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "alluredemo.login.test_login",
+    "children" : [ {
+      "name" : "test_2474609",
+      "uid" : "bd25853b3da2b2d7",
+      "parentUid" : "88f0249c1015c9a846fb4f7ebee5c638",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557165743315,
+        "stop" : 1557165752030,
+        "duration" : 8715
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "alluredemo.login.test_login"
+  } ]
+}

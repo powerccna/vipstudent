@@ -1,0 +1,11 @@
+test_login.py               40 INFO     输入错误的电话、密码
+test_login.py               47 DEBUG    获取登录名字
+PngImagePlugin.py          139 DEBUG    STREAM b'IHDR' 16 13
+PngImagePlugin.py          139 DEBUG    STREAM b'iCCP' 41 3144
+PngImagePlugin.py          319 DEBUG    iCCP profile name b'ICC Profile'
+PngImagePlugin.py          320 DEBUG    Compression method 0
+PngImagePlugin.py          139 DEBUG    STREAM b'pHYs' 3197 9
+PngImagePlugin.py          139 DEBUG    STREAM b'iTXt' 3218 415
+PngImagePlugin.py          139 DEBUG    STREAM b'iDOT' 3645 28
+PngImagePlugin.py          582 DEBUG    b'iDOT' 3645 28 (unknown)
+PngImagePlugin.py          139 DEBUG    STREAM b'IDAT' 3685 16384
